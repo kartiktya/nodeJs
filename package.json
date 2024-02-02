@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "firstApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon nodemonAndPackageJSON/app.js",
+    "start-server": "node nodemonAndPackageJSON/app.js"
+  },
+  "author": "Kartik",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
